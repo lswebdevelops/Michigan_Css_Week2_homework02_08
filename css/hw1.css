@@ -59,3 +59,101 @@ img{
     padding: 10px;
 }
 
+
+/* small screen only */
+@media(min-width:449px){
+    nav a{
+        display: inline-block;
+        background-color:#ffffff ;
+        opacity: 0.5;
+        width:15%;
+        height: 28px;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-right: 50px;
+        border-radius: 5px;
+        color: black;
+        font-family: Arial, "Helvetica Neue", Helvetica;
+        font-weight: 600;
+        }
+}
+
+
+@media(min-width:650px){
+    nav a{
+        display: inline-block;
+        background-color:#ffffff ;
+        opacity: 0.5;
+        width:15%;
+        height: 28px;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-right: 50px;
+        border-radius: 5px;
+        color: black;
+        font-family: Arial, "Helvetica Neue", Helvetica;
+        font-weight: 600;
+        }
+}
+/* media sized screen only */
+@media(min-width:750px){
+    nav a{
+    display: inline-block;
+	background-color:#ffffff ;
+    opacity: 0.5;
+	width:15%;
+    height: 38px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica;
+    font-weight: 600;
+    }
+}
+
+/* media sized screen only */
+@media(min-width:950px){
+    nav a{
+    display: inline-block;
+	background-color:#ffffff ;
+    opacity: 0.5;
+	width:15%;
+    height: 38px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 65px;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica;
+    font-weight: 600;
+    }
+}
+
+
+
+
+
+/* big screen only */
+@media (min-width:1200px){
+    nav a{
+    display: inline-block;
+	background-color:#ffffff ;
+    opacity: 0.5;
+    margin-bottom: 30px;
+	width:15%;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 70px;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica;
+    font-weight: 600;
+    }
+}
